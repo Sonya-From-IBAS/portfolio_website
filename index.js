@@ -17,7 +17,7 @@ function toggleTheme() {
     });
 }
 
-async function contact() {
+function contact() {
     const btn = document.querySelector('.submit');
     btn.addEventListener('click', (event) => {
         event.preventDefault();
